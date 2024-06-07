@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 15px;
+    background-color: darkorchid;
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

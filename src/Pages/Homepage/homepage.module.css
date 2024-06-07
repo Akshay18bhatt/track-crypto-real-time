@@ -1,0 +1,78 @@
+.homepage{
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+
+
+/*              Left Side            */
+
+.homepage_left{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    
+    
+    
+}
+.homepage_left h1{
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 2rem;
+}
+.homepage_left p{
+    text-align: center;
+    font-size: 13px;
+}
+.homepage_left p em{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.homepage-left h1{
+    font-size: 5rem;
+}
+
+.homepage_buttons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.homepage_buttons button{
+    width: 180px;
+    padding: 8px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+
+
+/*                   Right Side                    */
+
+.homepage_right{
+    /* background-color: hotpink; */
+    display: flex;
+
+    
+}
+.homepage_right_form_container{
+    width: 65%;
+    height: 90%;
+    margin: auto;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
